@@ -55,6 +55,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    'http://mybucketwa123.s3-website-us-west-1.amazonaws.com',
 ]
 
 ROOT_URLCONF = 'notes_project.urls'

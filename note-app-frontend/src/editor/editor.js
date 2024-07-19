@@ -65,6 +65,8 @@ class EditorComponent extends React.Component {
         <ReactQuill
           value={this.state.text}
           onChange={this.updateBody}
+          modules={EditorComponent.modules}
+          formats={EditorComponent.formats}
         />
       </div>
     );
